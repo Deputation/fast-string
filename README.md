@@ -5,6 +5,7 @@ Currently hand limited to 512 bytes because it doesn't really make any sense to 
 
 ## Some examples
 ``Hello`` turns into ``6f6c6c6548``
+
 ``Little-endian`` turns into ``6e6169646e652d656c7474694c``
 
 If you need it to consider the null terminator too, just add a 00 in front of the number :).
