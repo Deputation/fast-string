@@ -9,5 +9,5 @@ def string_to_little_endian_hex(s):
     return hex_representation
 
 if __name__ == "__main__":
-    s = input("Enter a string (up to 512 bytes): ")
+    s = input("Enter a string (up to 64 bytes): ")
     print(string_to_little_endian_hex(s))
