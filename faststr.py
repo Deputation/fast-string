@@ -1,7 +1,7 @@
 def string_to_little_endian_hex(s):
     byte_representation = s.encode()
     
-    if len(byte_representation) > 512:
+    if len(byte_representation) > 64:
         raise ValueError("The string is too long (> 512 bytes)")
     
     hex_representation = byte_representation[::-1].hex()
